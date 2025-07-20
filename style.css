@@ -1,0 +1,80 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('images1/pexels-bri-schneiter-28802-346529.jpg'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+
+header {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 15px;
+  text-align: center;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+nav a:hover {
+  color: #00ffcc;
+  text-decoration: underline;
+}
+
+main {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  max-width: 800px;
+  margin: 50px auto;
+  border-radius: 10px;
+}
+
+main h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+main p {
+  font-size: 20px;
+  line-height: 1.6;
+}
+.profile-pic {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 20px 0;
+  border: 3px solid #555;
+  object-fit: cover;
+}
+
+.contact {
+  background-color: #647866;
+  padding: 20px;
+  margin-top: 40px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.contact h2 {
+  color: #2c3e50;
+  margin-bottom: 15px;
+}
+
+.contact a {
+  color: #021a2b;
+  text-decoration: none;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
+
